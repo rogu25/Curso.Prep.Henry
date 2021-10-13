@@ -1,0 +1,50 @@
+* {
+  margin: 0 auto;
+  color: #fff;
+  text-align: center; 
+}
+
+body {
+/* img de fondo */
+  background-image: url("fondo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+/* centrado con flexbox */
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+div {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;  
+  color: #e6510b;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+a{
+    color: #dd1e1e;
+}
+#thirdDiv {
+  width: 500px;
+  height: 600px;
+  background: #f56;
+  padding: 50px;
+  border: 3px dashed #23a;
+}
+
+#spanId {
+  font-size: 18px;
+  margin: 50px;
+}
